@@ -1,0 +1,37 @@
+.categories-menu {
+    position: absolute;
+    width: 147.91px;
+    height: fit-content;
+    top: 60px;
+    list-style: none;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #000;
+}
+
+.categories-menu li {
+    cursor: pointer;
+}
+
+.categories-menu li:hover {
+    background-color: #222222;
+}
+
+.categories-menu.clicked {
+    display: none;
+}
+
+.category-link {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.category-link:hover {
+    color: #fff;
+    text-decoration: none;
+}

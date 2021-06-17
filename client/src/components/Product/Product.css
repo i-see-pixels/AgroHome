@@ -1,0 +1,88 @@
+.prodInfo-container {
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    align-self: center;
+    /* min-height: 900px; */
+    height: fit-content;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+.related-products {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.related-products .card-heading {
+    background-color: rgb(30, 96, 122);
+    color: #fff;
+    border-radius: 20px;
+    font-size: 18pt;
+    padding: 10px 20px;
+    margin: 0;
+    width: 100%;
+}
+
+.prod-overlay {
+    padding: 0%;
+    background-color: transparent;
+}
+
+.product-image {
+    overflow: hidden;
+    margin-top: 30px;
+    width: 600px;
+    height: 500px;
+}
+
+.product-image img {
+    max-width: 100%;
+}
+
+.badge-pill {
+    padding: 5px 15px;
+    margin: 10px;
+}
+
+.category-info {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.added-on {
+    color: rgb(129, 129, 129);
+}
+
+.product-details {
+    padding: 30px;
+    width: calc(100% - 600px);
+    height: fit-content;
+    margin-left: 30px;
+    min-height: 500px;
+}
+
+.product-name {
+    font-size: 35pt;
+    font-weight: 600;
+}
+
+.product-description p {
+    font-size: 16pt;
+    color: rgb(90, 90, 90);
+}
+
+.product-price {
+    font-size: 30pt;
+    margin: 20px;
+}
+
+.product-price span {
+    font-size: 12pt;
+}
+
+.product-details .btn {
+    background-color: #c75b2a;
+    color: #fff;
+}

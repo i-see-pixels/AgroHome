@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: fit-content;
+}
+
+.container .heading {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #eee;
+    letter-spacing: 100;
+    color: darkcyan;
+}
+
+.details-container {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    margin: 50px 10px;
+    height: fit-content;
+}
+
+.profile-pic {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 280px;
+    height: 500px;
+    padding: 10px 20px;
+}
+
+.admin-links {
+    width: 250px;
+    margin: 0px 10px;
+    height: fit-content;
+}
+
+.container .link {
+    font-size: 20px;
+}
+
+.profile-pic .fa-user-circle {
+    font-size: 200px;
+    color: rgb(78, 133, 133);
+    margin: 10px;
+}
+
+.profile-pic .btn {
+    width: 150px;
+    height: 40px;
+    font-size: 9pt;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+}
+
+.details {
+    width: 600px;
+    margin-right: 40px;
+    height: fit-content;
+}
+
+.card {
+    background-color: rgb(78, 133, 133);
+}
+
+.card-header {
+    color: #fff;
+}
+
+.list-group-item {
+    font-size: 16pt;
+}
+
+.list-group-item span {
+    font-size: 16pt;
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 1px solid rgb(101, 134, 129);
+    font-weight: 600;
+}

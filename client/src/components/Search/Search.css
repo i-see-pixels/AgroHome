@@ -1,0 +1,59 @@
+.filter-container {
+    position: fixed;
+    top: 150px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: fit-content;
+    background-color: #fff;
+    padding: 5px;
+    z-index: 5;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+.filter-container .card-heading {
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+    color: mintcream;
+    background-color: #4f744f;
+}
+
+.filter-heading {
+    font-size: 16pt;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+}
+
+.filter-container .list-group {
+    padding: 10px;
+    border-bottom: none;
+}
+
+.filter-container .list-unstyled {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.list-unstyled .form-checkbox {
+    margin-right: 1.25rem;
+}
+.list-unstyled input {
+    width: fit-content;
+    margin: 0;
+}
+
+.products-container {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 100px;
+    flex-wrap: wrap;
+}
+
+.load-more-btn {
+    background-color: orange;
+    margin-top: 50px;
+}
