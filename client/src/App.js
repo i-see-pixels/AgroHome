@@ -21,7 +21,7 @@ import AdminRoute from "./auth/AdminRoute";
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter forceRefresh={true}>
             <div className="App">
                 <Navbar />
                 <Switch>
