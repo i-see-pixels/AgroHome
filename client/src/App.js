@@ -21,7 +21,7 @@ import AdminRoute from "./auth/AdminRoute";
 
 function App() {
     return (
-        <BrowserRouter forceRefresh={true}>
+        <HashRouter>
             <div className="App">
                 <Navbar />
                 <Switch>
@@ -64,7 +64,7 @@ function App() {
                 </Switch>
                 <Footer />
             </div>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
